@@ -1,0 +1,12 @@
+baseURL: http://example.org/
+languageCode: en-gb
+title: My New Hugo Site
+theme: mktest
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  phase: alpha

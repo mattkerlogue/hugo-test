@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template ">
+
+{{- partial "head.html" . -}}
+
+<body class="govuk-template__body">
+    {{- partial "header.html" . -}}
+
+    {{- block "main" . }}{{- end }}
+
+    {{- partial "footer.html" . -}}
+</body>
+
+</html>
