@@ -18,7 +18,9 @@ jobs:
         uses: actions/checkout@v2
 
       - name: hugobuild
-        run: hugo
+        run: |
+          export HOMEBREW_NO_INSTALL_CLEANUP=1
+          hugo
 
       - name: commit
         run: |
