@@ -10,6 +10,7 @@ markup:
 
 params:
   phase: alpha
+  feedbackurl: https://github.com/mattkerlogue/hugo-test/issues/
   logo: text
   logotext: TST
   product: Test Site
