@@ -14,3 +14,4 @@ params:
   logo: text
   logotext: TST
   product: Test Site
+  govuk: false

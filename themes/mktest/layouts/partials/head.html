@@ -25,6 +25,11 @@
 
   <link href="/css/dashboard-layout.css" rel="stylesheet">
 
+  {{ with $.Site.Params.Govuk }}
+  {{else }}
+  <link href="/css/font-override.css" rel="stylesheet">
+  {{ end }}
+
   <meta property="og:image" content="/assets/images/govuk-opengraph-image.png">
 
 </head>
