@@ -3,6 +3,7 @@ languageCode: en-gb
 title: My New Hugo Site
 theme: mktest
 publishDir: docs
+canonifyurls: true
 
 markup:
   goldmark:
