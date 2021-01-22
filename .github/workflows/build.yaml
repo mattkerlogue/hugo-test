@@ -13,14 +13,14 @@ jobs:
     steps:
       - name: setup
         run: brew install hugo
+        env: 
+          HOMEBREW_NO_INSTALL_CLEANUP: 1
 
       - name: checkout
         uses: actions/checkout@v2
 
       - name: hugobuild
-        run: |
-          export HOMEBREW_NO_INSTALL_CLEANUP=1
-          hugo
+        run: hugo
 
       - name: commit
         run: |
