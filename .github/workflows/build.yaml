@@ -26,7 +26,7 @@ jobs:
         run: |
           git config --local user.name actions-user
           git config --local user.email "actions@github.com"
-          git add public/*
+          git add docs/*
           git commit -am "Auto build $(date)"
           git push origin main
         env:
