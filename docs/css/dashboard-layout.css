@@ -46,6 +46,10 @@
     padding-left: 10px;
 }
 
+.govuk-footer__copyright-logo {
+    background-image: none;
+}
+
 .dashboard-container {
     display: grid;
     grid-column-gap: 20px;
