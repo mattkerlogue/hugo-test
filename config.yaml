@@ -10,3 +10,6 @@ markup:
 
 params:
   phase: alpha
+  logo: text
+  logotext: TST
+  product: Test Site
