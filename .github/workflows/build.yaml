@@ -20,7 +20,7 @@ jobs:
       - name: hugobuild
         run: hugo
 
-      - name: Commit files
+      - name: commit
       run: |
         git config --local user.name actions-user
         git config --local user.email "actions@github.com"
