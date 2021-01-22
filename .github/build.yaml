@@ -1,0 +1,33 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build site
+    runs-on: macos-latest
+
+    steps:
+      - name: setup
+        run: brew install hugo
+
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: hugobuild
+        run: hugo
+
+      - name: Commit files
+      run: |
+        git config --local user.name actions-user
+        git config --local user.email "actions@github.com"
+        git add public/*
+        git commit -am "Auto build $(date)"
+        git push origin main
+      env:
+        REPO_KEY: ${{secrets.GITHUB_TOKEN}}
+        username: github-actions
+      
