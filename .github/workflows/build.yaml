@@ -21,13 +21,13 @@ jobs:
         run: hugo
 
       - name: commit
-      run: |
-        git config --local user.name actions-user
-        git config --local user.email "actions@github.com"
-        git add public/*
-        git commit -am "Auto build $(date)"
-        git push origin main
-      env:
-        REPO_KEY: ${{secrets.GITHUB_TOKEN}}
-        username: github-actions
+        run: |
+          git config --local user.name actions-user
+          git config --local user.email "actions@github.com"
+          git add public/*
+          git commit -am "Auto build $(date)"
+          git push origin main
+        env:
+          REPO_KEY: ${{secrets.GITHUB_TOKEN}}
+          username: github-actions
       
