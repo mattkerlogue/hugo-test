@@ -1,7 +1,6 @@
 ---
 title: "Test 2"
 date: 2021-01-21T20:47:15Z
-draft: true
 ---
 
 This is test 2
