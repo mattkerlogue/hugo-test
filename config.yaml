@@ -1,4 +1,4 @@
-baseURL: http://example.org/
+baseURL: https://mattkerlogue.github.io/hugo-test/
 languageCode: en-gb
 title: My New Hugo Site
 theme: mktest
