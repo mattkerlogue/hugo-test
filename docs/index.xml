@@ -7,5 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Thu, 21 Jan 2021 20:47:15 +0000</lastBuildDate><atom:link href="https://mattkerlogue.github.io/hugo-test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About page</title>
+      <link>https://mattkerlogue.github.io/hugo-test/about/</link>
+      <pubDate>Thu, 21 Jan 2021 20:47:15 +0000</pubDate>
+      
+      <guid>https://mattkerlogue.github.io/hugo-test/about/</guid>
+      <description>About page</description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://mattkerlogue.github.io/hugo-test/style/test/</link>
+      <pubDate>Thu, 21 Jan 2021 20:47:15 +0000</pubDate>
+      
+      <guid>https://mattkerlogue.github.io/hugo-test/style/test/</guid>
+      <description>&lt;p&gt;some general text&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Test 2</title>
+      <link>https://mattkerlogue.github.io/hugo-test/workflow/test2/</link>
+      <pubDate>Thu, 21 Jan 2021 20:47:15 +0000</pubDate>
+      
+      <guid>https://mattkerlogue.github.io/hugo-test/workflow/test2/</guid>
+      <description>&lt;p&gt;This is test 2&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Test 3</title>
+      <link>https://mattkerlogue.github.io/hugo-test/workflow/test3/</link>
+      <pubDate>Thu, 21 Jan 2021 20:47:15 +0000</pubDate>
+      
+      <guid>https://mattkerlogue.github.io/hugo-test/workflow/test3/</guid>
+      <description>&lt;p&gt;This is test 3&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>
